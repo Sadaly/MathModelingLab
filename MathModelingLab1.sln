@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathModelingLab1", "MathModelingLab1\MathModelingLab1.csproj", "{FACC6F55-D019-469B-A8BD-CFCCD1C6DA7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathModelingLab2", "MathModelingLab2\MathModelingLab2.csproj", "{2CD0C6A3-C90F-4060-87E7-509C42D632B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FACC6F55-D019-469B-A8BD-CFCCD1C6DA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FACC6F55-D019-469B-A8BD-CFCCD1C6DA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FACC6F55-D019-469B-A8BD-CFCCD1C6DA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD0C6A3-C90F-4060-87E7-509C42D632B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD0C6A3-C90F-4060-87E7-509C42D632B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD0C6A3-C90F-4060-87E7-509C42D632B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD0C6A3-C90F-4060-87E7-509C42D632B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

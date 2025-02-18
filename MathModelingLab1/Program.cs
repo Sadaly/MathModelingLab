@@ -45,9 +45,9 @@ namespace MathModelingLab1
 
 			Console.WriteLine("Задача 2:");
 
-			int max_hh_1 = 800;
-			int max_hh_2 = 600;
-			int max_hh_3 = 2000;
+			int max_hh_1 = 330;
+			int max_hh_2 = 200;
+			int max_hh_3 = 370;
 
 			Console.WriteLine($"Трудоемкость 1: {max_hh_1}, 2: {max_hh_2}, 3: {max_hh_3}");
 			Console.WriteLine($"Затраты человек-дней на товар 1 подразделениями 1 - 1, 2 - 1, 3 - 1");
@@ -84,7 +84,11 @@ namespace MathModelingLab1
 			int[] feed1 = { 330, 170, 380 };
 			int[] feed2 = { 240, 200, 440 };
 			int[] feed3 = { 300, 110, 370 };
-
+            Console.WriteLine("\t\tA\tB\tC\tМинимальные значения");
+			Console.WriteLine($"Жиры\t\t{feed1[0]}\t{feed2[0]}\t{feed3[0]}\t{min_fats}");
+			Console.WriteLine($"Белки\t\t{feed1[1]}\t{feed2[1]}\t{feed3[1]}\t{min_prot}");
+			Console.WriteLine($"Углеводы\t{feed1[2]}\t{feed2[2]}\t{feed3[2]}\t{min_carb}");
+			Console.WriteLine($"Цена\t\t{31}\t{23}\t{20}");
 			int[] min_feed1 = { 330, 170, 380 };
 			int min_feed1_count = 0;
 			while (min_feed1[0] < min_fats
