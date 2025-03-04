@@ -103,14 +103,14 @@ class Program
 	}
 	static void Main(string[] args)
 	{
-		double d = 4;  
+		double d = 3;  
 		double x1 = 2;  
-		double tolerance = 1e-9; 
+		double tolerance = 1e-7; 
 		double stepSize = 1e-5;  
 
 		for (int iteration = 0; iteration < 9999999; iteration++)
 		{
-			double dFdx1 = -40 + 22 * x1;
+			double dFdx1 = -30 + 22 * x1;
 
 			x1 -= stepSize * dFdx1;
 
@@ -128,7 +128,6 @@ class Program
 			}
 		}
 
-		x1 = Math.Round(x1);
 		double x2_final = d - x1;
 		double finalCost = CalculateTotalCost(x1, x2_final);
 		Console.WriteLine($"Оптимальные значения: x1 = {x1}, x2 = {x2_final}");
